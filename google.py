@@ -14,4 +14,4 @@ try:
     town, country = [x.strip() for x in user_input.split(",", 1)]
     open_google_maps(country, town)
 except ValueError:
-    print("Please enter the location in the format 'Town, Country'")
+    print("Please enter the location in the format 'città, Country'")
