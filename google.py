@@ -1,4 +1,5 @@
 import webbrowser
+
 import urllib.parse
 
 def open_google_maps(country, town):
